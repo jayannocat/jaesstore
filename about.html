@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAES STORE</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body >
+    <div class="header">
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="image/LOGO1.jpg" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>                
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="account.html">Account</a></li>
+    
+    
+                </ul>
+            </nav>
+    <img src="image/ca3-min.png" width="30px" height="30px">
+    <img src="image/m1-min.jpg"width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+        </div>
+        
+        
+        </div>   
+  
+    </div>
+<br><br>
+    <h1 align="center">About us</h1>
+    <div class="row">
+        <div class="col-2"> <br><br><br>
+            &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  <img src="image/Screenshot (110).png" width="600px">
+
+        
+    </div>
+    <div class="col-2"> <br><br>
+     <h2>Welcome to JAES STORE</h2> <br>
+       <p>&nbsp;&nbsp;Your one stop online shopping destination for different kinds of Dresses, Shoes, Bags, Electronics ,
+        etc. We are committed to provide you the best shopping experience and high-quality products. <br> <br>
+        <b>Our Mission:</b> <br>&nbsp;&nbsp;At JAES STORE, our mission is to serve you the most best experience in our products. <br> We aim to (explain
+        how the company strives to achieve its mission). <br><br>
+       <b> What We Offer:</b> <br>&nbsp; We offer a diverse selection of Clothing, Bags, Electronics etc. to cater your unique needs and preferences. <br>
+        We ensure that all our products undergo strict quality control measures to meet the highest standards. <br>
+        We strive to deliver your orders quickly and effficiently, ensuring your satisfaction.  <br><br>
+       <b> Our Values:</b> <br> &nbsp; We prioritize your satisfaction by offerring top-notch products and excellent customer support. <br> 
+        We believe in transparency, honesty, and ethical business practices. We continously strive to improve and innovate to provide you
+        with the best shopping experience.
+
+    </p>
+    
+</div>
+    </div>   
+</div>
+
+
+
+
+ 
+<br><br><br>
+<!----------footer---------->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <div class="app-logo">
+                    <img src="image/LOGO1.jpg">
+                    <p> Explore our store and discover the perfect items to enchance your life. Happy shopping!</p>
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <h3>Download Our App</h3>
+                <p> Download app for android and ios mobile</p>
+                <img src="image/google.png">
+                <img src="image/App-store.png">
+                
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy </li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebok</li>
+                    <li>Twitter</li>
+                    <li>Instagram </li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">2024 JAES STORE</p>
+    </div>
+</div>
+<!------------js for toggle menu--------->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if( MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+
+</script>
+
+<!------------js for toggle form--------->
+<script>
+    var LoginForm = document.getElementById("LoginForm");
+    var RegForm = document.getElementById("RegForm");
+    var Indicator = document.getElementById("Indicator");
+
+     function register(){
+        RegForm.style.transform ="translateX(0px)";
+        LoginForm.style.transform ="translateX(0px)";
+       Indicator.style.transform ="translateX(100px)";
+     }
+     function login(){
+        RegForm.style.transform ="translateX(300px)";
+        LoginForm.style.transform ="translateX(300px)";
+        Indicator.style.transform ="translateX(0px)";
+     }
+
+
+
+
+
+</script>
+
+</body>
+</html>
